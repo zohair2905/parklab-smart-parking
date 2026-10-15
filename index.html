@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ParkLab — Parking control</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="control.css">
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+</head>
+<body data-ui>
+<header class="mast"><a href="index.html" class="brand">PARKLAB<span> / PARKING CONTROL</span></a><span class="session"><i></i> RECORDED SESSION</span><a href="#comparison">Experiment results ↗</a></header>
+<main>
+  <section class="intro"><div><h1>Every bay. In view.</h1><p>Fifty spaces, two levels. Watch how a parking decision changes the day.</p></div><div class="clock-wrap"><span>SIMULATION TIME</span><output id="clock">09:30:00</output><span id="runLabel">Loading recorded experiment</span></div></section>
+  <p id="error" role="alert" hidden></p>
+  <section class="console" aria-label="Parking replay">
+    <div class="console-head"><div id="modes" class="switch" aria-label="Parking mode"><button data-mode="Normal" aria-pressed="false">Normal</button><button data-mode="Smart" aria-pressed="true">Smart</button><button data-mode="Both" aria-pressed="false">Compare</button></div><span class="model-info">50 BAYS / <span id="levelsCount">2 LEVELS</span></span><label>Dataset <select id="dataset"><option value="part_a">Two-level experiment</option><option value="legacy">Original experiment</option></select></label></div>
+    <div class="workspace">
+      <div class="viewport-column">
+        <div id="assetLoading" role="status"><progress id="assetProgress" max="23" value="0"></progress><span id="assetStatus">Preparing facility</span></div>
+        <div id="stage"><div id="status" role="status">Loading 3D scene…</div><span class="stage-corner">ORBIT / SCROLL TO ZOOM</span><aside id="selectionPanel" hidden><div class="title"><h2 id="selectionTitle">Selection</h2><button id="closeSelection" aria-label="Close details">×</button></div><dl id="details"></dl><p id="selectionHelp"></p></aside></div>
+        <div class="view-tools"><div id="views" class="group" aria-label="Camera preset"><button data-view="overview" aria-pressed="true">Overview</button><button data-view="top" aria-pressed="false">Plan</button><button data-view="entrance" aria-pressed="false">Entrance</button><button data-view="free" aria-pressed="false">Orbit</button><button data-view="cinematic" aria-pressed="false">Cinematic</button><button data-view="follow" id="follow" disabled aria-pressed="false">Follow car</button></div><label id="cutawayLabel" hidden><input id="cutaway" type="checkbox" checked> Cutaway</label></div>
+      </div>
+      <aside class="register"><div class="register-head"><h2>Bay register</h2><label class="sr-only" for="registerFloor">Register floor</label><select id="registerFloor"><option value="1">Ground floor</option><option value="2">Upper floor</option></select></div><div class="availability"><output id="freeCount">—</output><span>AVAILABLE NOW<br><small id="registerMode">SMART / GROUND</small></span></div><div id="bayGrid" class="bay-grid" aria-label="Live bay states"></div><div class="bay-legend"><span><i class="empty"></i> Free</span><span><i class="claimed"></i> Claimed</span><span>E · EV &nbsp; R · Reserved</span></div><p class="register-note">Select a bay to inspect its recorded assignment. A claimed bay includes cars still travelling to park.</p><div class="inspect-control"><label for="carNumber">Inspect a car</label><div><select id="inspectMode" aria-label="Car mode"><option>Smart</option><option>Normal</option></select><input id="carNumber" type="number" min="1" value="1" aria-label="Car ID"><button id="inspect">Find →</button></div><p id="inspectMessage" role="status"></p></div></aside>
+    </div>
+    <div class="playback"><button id="pause" class="primary">Play replay →</button><button id="restart" aria-label="Restart replay">↶ Reset</button><div class="timeline"><label for="timeline" class="sr-only">Replay time</label><span>07:00</span><input id="timeline" type="range" min="0" max="720" step="0.01" value="150"><span id="endLabel">19:00</span></div><div id="speeds" class="group" aria-label="Replay speed"><button data-speed="20" aria-pressed="false">20×</button><button data-speed="60" aria-pressed="true">60×</button><button data-speed="180" aria-pressed="false">180×</button></div></div>
+    <div class="secondary-tools"><div class="group"><span>JUMP TO</span><button data-time="120">Morning peak</button><button data-time="630">Evening peak</button><button data-time="720">Closing time</button></div><label><input id="afterHours" type="checkbox"> Show departures after closing</label></div>
+  </section>
+  <section aria-label="Current replay readings"><div class="section-line"><h2>At this moment</h2><p>One recorded run · fees count when a vehicle leaves</p></div><div id="dashboards" class="single"></div></section>
+  <details class="settings"><summary>Scene settings & export <span>+</span></summary><div class="settings-body"><label>Render quality <select id="quality"><option value="low">Low</option><option value="medium" selected>Medium</option><option value="high">High</option></select></label><div class="group" id="lighting" aria-label="Scene lighting"><button data-light="day" aria-pressed="false">Day</button><button data-light="sunset" aria-pressed="false">Sunset</button><button data-light="night" aria-pressed="true">Night</button></div><button id="screenshot">Save scene image</button><button id="photo" aria-pressed="false">Photo mode</button><button id="exportLog">Export recorded data</button><p id="assetNote"></p></div></details>
+  <section id="comparison" class="comparison"><div class="comparison-intro"><h2>The whole experiment.</h2><p>Ten paired runs, with identical arrivals in each mode. These averages are separate from the replay above.</p><p class="finding" id="finding">Loading measured comparison…</p></div><div class="table-wrap"><table><caption class="sr-only">Ten-run comparison</caption><thead><tr><th>MEASURE</th><th>NORMAL</th><th>SMART</th></tr></thead><tbody id="comparisonRows"></tbody></table><p id="comparisonNote"></p></div></section>
+  <footer><span>PARKLAB / RAL MINI PROJECT</span><p>Software simulation. Bay sensors and barriers are modelled; vehicle paths illustrate recorded events and do not simulate aisle collisions.</p><a href="CREDITS.md">Asset credits ↗</a></footer>
+</main><button id="exitPhoto">Exit photo mode · Esc</button>
+<script type="module" src="control.js"></script>
+</body></html>

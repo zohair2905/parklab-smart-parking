@@ -1,0 +1,167 @@
+[
+  {
+    "file": "models/sedan.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/sedan.glb",
+    "license": "CC0",
+    "sha256": "d68f81dc384a4de64b185bd37c933b7118bd7e0b43b40c2dc05ac389247e572b"
+  },
+  {
+    "file": "models/hatchback.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/hatchback-sports.glb",
+    "license": "CC0",
+    "sha256": "4d810b1938a6e4c6fa6a6dea6b7339e02e64e3e1a4ee7ebd6167feeaf504f7d9"
+  },
+  {
+    "file": "models/suv.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/suv.glb",
+    "license": "CC0",
+    "sha256": "e44171a07d360b305165c47eb4ceffb66f44e37f77a950519cc23d5278760de3"
+  },
+  {
+    "file": "models/ev.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/sedan-sports.glb",
+    "license": "CC0",
+    "sha256": "e3d62c7245c315f6336762edd8c564dee9ed3170453655e74503d0d53e1036b3"
+  },
+  {
+    "file": "models/van.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/van.glb",
+    "license": "CC0",
+    "sha256": "79ef22df4772340662d2cb696f7ef514a79e8d647969edc1d6002d566248bab8"
+  },
+  {
+    "file": "models/traffic_cone.glb",
+    "pack": "https://kenney.nl/assets/car-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/car-kit/1a312ec241-1775131960/kenney_car-kit.zip",
+    "archive_member": "Models/GLB format/cone.glb",
+    "license": "CC0",
+    "sha256": "a9cae616641a3bffc6fc0d60fa3255dbdcf46379346fec77b2772190a5283823"
+  },
+  {
+    "file": "models/light_pole.glb",
+    "pack": "https://kenney.nl/assets/city-kit-roads",
+    "archive_url": "https://kenney.nl/media/pages/assets/city-kit-roads/74288c9459-1787042796/kenney_city-kit-roads.zip",
+    "archive_member": "Models/GLB format/light-curved.glb",
+    "license": "CC0",
+    "sha256": "1979f5055307478872949047738c8bb928c98e5deb55c79330675399abb58562"
+  },
+  {
+    "file": "models/parking_sign.glb",
+    "pack": "https://kenney.nl/assets/city-kit-roads",
+    "archive_url": "https://kenney.nl/media/pages/assets/city-kit-roads/74288c9459-1787042796/kenney_city-kit-roads.zip",
+    "archive_member": "Models/GLB format/road-sign-empty.glb",
+    "license": "CC0",
+    "sha256": "025ecf26b3eab18efe8e5af8bdcfcb84606d38d9d428cac8bc6244e541a97c80"
+  },
+  {
+    "file": "models/tree.glb",
+    "pack": "https://kenney.nl/assets/nature-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+    "archive_member": "Models/GLTF format/tree_detailed.glb",
+    "license": "CC0",
+    "sha256": "c041daf2f0fb1d49e4325227cbcd58667adbe51e9b55e8c1f0a94b74cc521b3b"
+  },
+  {
+    "file": "models/bush.glb",
+    "pack": "https://kenney.nl/assets/nature-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+    "archive_member": "Models/GLTF format/plant_bushDetailed.glb",
+    "license": "CC0",
+    "sha256": "2e0487020d68ccf664435db9d829c78ae00e6d2785ee3ec10b9f89cc70a10406"
+  },
+  {
+    "file": "models/bench.glb",
+    "pack": "https://kenney.nl/assets/furniture-kit",
+    "archive_url": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+    "archive_member": "Models/GLTF format/bench.glb",
+    "license": "CC0",
+    "sha256": "ba05a6d23a5a5a44da016757632070e47ff7587ce10e2f6d6d52328b4cf5489b"
+  },
+  {
+    "file": "hdri/day.hdr",
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+    "license": "CC0",
+    "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+  },
+  {
+    "file": "hdri/sunset.hdr",
+    "source": "https://polyhaven.com/a/venice_sunset",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/venice_sunset_1k.hdr",
+    "license": "CC0",
+    "sha256": "92fe2b29b1957828fb8925a57633540bbba5bf380d9285ed553443e834249352"
+  },
+  {
+    "file": "textures/asphalt_color.jpg",
+    "source": "https://polyhaven.com/a/asphalt_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+    "license": "CC0",
+    "sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed"
+  },
+  {
+    "file": "textures/asphalt_normal.jpg",
+    "source": "https://polyhaven.com/a/asphalt_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+    "license": "CC0",
+    "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3"
+  },
+  {
+    "file": "textures/asphalt_roughness.jpg",
+    "source": "https://polyhaven.com/a/asphalt_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg",
+    "license": "CC0",
+    "sha256": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712"
+  },
+  {
+    "file": "textures/concrete_color.jpg",
+    "source": "https://polyhaven.com/a/concrete_layers_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_layers_02/concrete_layers_02_diff_1k.jpg",
+    "license": "CC0",
+    "sha256": "cca314fbb793e3928111912f1d6d4d79edf4420402e56019d70fec0bdc2efca5"
+  },
+  {
+    "file": "textures/concrete_normal.jpg",
+    "source": "https://polyhaven.com/a/concrete_layers_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_layers_02/concrete_layers_02_nor_gl_1k.jpg",
+    "license": "CC0",
+    "sha256": "ee35d817b5fa26f824479ef9d3a5ab308f4f33846c7d62d6583457dc900c6049"
+  },
+  {
+    "file": "textures/concrete_roughness.jpg",
+    "source": "https://polyhaven.com/a/concrete_layers_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_layers_02/concrete_layers_02_rough_1k.jpg",
+    "license": "CC0",
+    "sha256": "1120d3546b604db2db5ef300f2e16d4aee211d09e3b6ca67ce2350f714d9d087"
+  },
+  {
+    "file": "textures/grass_color.jpg",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_diff_1k.jpg",
+    "license": "CC0",
+    "sha256": "cfa40bc9d9417d1852db8753a8d5917f110c40101179f63543c382e39bc05e4a"
+  },
+  {
+    "file": "textures/grass_normal.jpg",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+    "license": "CC0",
+    "sha256": "832328216adc0a7e1f70a31d5ee48c9ab7f2152d83816122736cf42ac4b2ebd6"
+  },
+  {
+    "file": "textures/grass_roughness.jpg",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_rough_1k.jpg",
+    "license": "CC0",
+    "sha256": "0c2a1d91aacb8e54a496051b59854e51e456fe858abeade778e308359ef16463"
+  }
+]

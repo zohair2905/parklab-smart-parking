@@ -6,7 +6,10 @@ A redesigned interface for the RAL smart parking mini project, combining Taste S
 
 ## Open the project
 
-Run `Start ParkLab.bat`, then open http://127.0.0.1:8778. Or run `python -m http.server 8778 --bind 127.0.0.1` in this directory. The browser loads Three.js 0.160.0 from jsDelivr, so internet access is needed for the 3D library. Scene models, textures, logs and comparison data are included locally.
+Run `Start ParkLab.bat`, then open http://127.0.0.1:8778. 
+Or run `python -m http.server 8778 --bind 127.0.0.1` in this directory. 
+The browser loads Three.js 0.160.0 from jsDelivr, so internet access is needed for the 3D library. 
+Scene models, textures, logs and comparison data are included locally.
 
 ## Controls
 
